@@ -10,8 +10,9 @@ import javax.servlet.http.HttpServletResponse;
 public class FirstController implements Controller {
     @RequestMapping("/firstController")
     @Override
-    public ModelAndView handleRequest(HttpServletRequest request,HttpServletResponse response){
-        ModelAndew mav = new ModelAndView();
+    qweqwe
+    public ModeView handleRequest(HttpServletRequest request,HttpServletResponse response){
+        Modelmav = new ModelAndView();
         mav.addObject("msg" , "这是我的第一个spring MVC程序");
 
         return mav;
