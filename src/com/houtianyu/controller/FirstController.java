@@ -8,23 +8,20 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 @org.springframework.stereotype.Controller
 public class FirstController implements Controller {
-    @RequestMapping("/firstController")
-    @Override
+    @RequestMapping("/firswadsdawdasdawtController")
+    @Overide
+    sdfhaoiuhsfiaughsd
     qweqwe
-    public ModeView handleRequest(HttpServletRequest request,HttpServletResponse response){
+    public ModeView handlyuguyguygyugkuyguest(HttpServletRequest request,HttpServletResponse response){
         Modelmav = new ModelAndView();
         mav.addObject("msg" , "这是我的第一个spring MVC程序");
 
         return mav;
-        qwejqkgwdiygadghkja;
+        qwejqkgwdgadghkja;
         w
                 eiqjwoeiuqjoiwejs
                 daodjpad
                         askdpoajksdp
-
-
-
-
                         asdawdaw
 
     }
