@@ -13,8 +13,9 @@ public class FirstController implements Controller {
     public ModelAndView handleRequest(HttpServletRequest request,HttpServletResponse response){
         ModelAndView mav = new ModelAndView();
         mav.addObject("msg" , "这是我的第一个spring MVC程序");
-        mav.setViewName("/first.jsp");
+
         return mav;
+        qwejqkgwdiygaksdghkja;
 
     }
 
